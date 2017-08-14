@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitch Killer Overlay", "Twitch Killer Overlay.csproj", "{0C3C4C80-CCA8-C517-64FF-9D73C0EB5657}"
 EndProject
 Global

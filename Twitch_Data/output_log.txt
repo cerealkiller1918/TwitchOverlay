@@ -1,0 +1,61 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8140 MB
+    Driver:   22.19.162.4
+Begin MonoManager ReloadAssembly
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Core.dll (this message is harmless)
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\TwitchLib.dll into Unity Child Domain
+Loading H:\Twitch Killer Overlay\Twitch_Data\Managed\websocket-sharp.dll into Unity Child Domain
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.dll (this message is harmless)
+- Completed reload, in  0.055 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.013745 ms
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\Mono.Security.dll (this message is harmless)
+Fallback handler could not load library H:/Twitch Killer Overlay/Twitch_Data/Mono/libc
+Fallback handler could not load library H:/Twitch Killer Overlay/Twitch_Data/Mono/libc.dll
+Fallback handler could not load library H:/Twitch Killer Overlay/Twitch_Data/Mono/libc
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Numerics.dll (this message is harmless)
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Runtime.Serialization.dll (this message is harmless)
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Data.dll (this message is harmless)
+Setting up Client
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: H:\Twitch Killer Overlay\Twitch_Data\Managed\System.Drawing.dll (this message is harmless)
+User cerealkiller1918 joined channel
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Fallback handler could not load library H:/Twitch Killer Overlay/Twitch_Data/Mono/libc
+Fallback handler could not load library H:/Twitch Killer Overlay/Twitch_Data/Mono/libc.dll
+Fallback handler could not load library H:/Twitch Killer Overlay/Twitch_Data/Mono/libc
+TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo TehePelo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+8/13/2017 8:25:04 PM|Fatal|WebSocket.<startReceiving>b__175_2:0|System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+                           . ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.
+                           
+                             at System.Net.Sockets.Socket.EndReceive (System.IAsyncResult result) [0x00033] in <f044fe2c9e7e4b8e91984b41f0cf0b04>:0 
+                             at System.Net.Sockets.NetworkStream.EndRead (System.IAsyncResult asyncResult) [0x0005f] in <f044fe2c9e7e4b8e91984b41f0cf0b04>:0 
+                              --- End of inner exception stack trace ---
+                             at System.Net.Sockets.NetworkStream.EndRead (System.IAsyncResult asyncResult) [0x000b1] in <f044fe2c9e7e4b8e91984b41f0cf0b04>:0 
+                             at WebSocketSharp.Ext+<>c__DisplayClass55_0.<ReadBytesAsync>b__0 (System.IAsyncResult ar) [0x00002] in <3bfb09d1ec3f41079da19be18a3ba9a3>:0 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 547c -> priority: 1 
+  Thread -> id: 4f60 -> priority: 1 
